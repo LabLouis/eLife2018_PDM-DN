@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Experiment>
+  <Name>Current</Name>
+  <UpdateRate>10000</UpdateRate>
+  <UpdateDivisor>2000</UpdateDivisor>
+  <Waveform>
+    <Name>473</Name>
+    <Enabled>false</Enabled>
+    <AOLine>0</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-256</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>amber LED</Name>
+    <Enabled>true</Enabled>
+    <AOLine>1</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-7876870</PlotColor>
+    <WaveformComponent_PulseTrain>
+      <Name>3sec, 0.92V, 30x2ms ON 31ms OFF</Name>
+      <PulseCount>30</PulseCount>
+      <PulseWidth>2</PulseWidth>
+      <PulseSpacing>31</PulseSpacing>
+      <PulsePotentialStart>0.91</PulsePotentialStart>
+      <PulsePotentialDelta>0</PulsePotentialDelta>
+      <RestPotential>0</RestPotential>
+      <FirstPulseDelay>3000</FirstPulseDelay>
+      <Repetitions>1</Repetitions>
+      <DelayBetweenReps>0</DelayBetweenReps>
+    </WaveformComponent_PulseTrain>
+  </Waveform>
+  <Waveform>
+    <Name>Blue LED</Name>
+    <Enabled>false</Enabled>
+    <AOLine>2</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-38476</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>Voltage Output 3</Name>
+    <Enabled>false</Enabled>
+    <AOLine>3</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-8586240</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>Voltage Output 4</Name>
+    <Enabled>false</Enabled>
+    <AOLine>4</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-16776961</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>Uncaging X Galvo</Name>
+    <Enabled>false</Enabled>
+    <AOLine>5</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-65536</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>Voltage Output 6</Name>
+    <Enabled>false</Enabled>
+    <AOLine>6</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-23296</PlotColor>
+  </Waveform>
+  <Waveform>
+    <Name>Uncaging Y Galvo</Name>
+    <Enabled>false</Enabled>
+    <AOLine>7</AOLine>
+    <Units>V</Units>
+    <UnitScaleFactor>1</UnitScaleFactor>
+    <UnitVoltageOffset>0</UnitVoltageOffset>
+    <UnitScaleOffset>0</UnitScaleOffset>
+    <PlotColor>-7077677</PlotColor>
+  </Waveform>
+</Experiment>
