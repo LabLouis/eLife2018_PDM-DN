@@ -1,13 +1,14 @@
 # Functional Imaging Data
 
-presented in Figure 6 E and F in the paper 
+presented in Figure 6 E and F of the paper 
 titled: **"Sensorimotor pathway controlling stopping behavior 
 during chemotaxis in the Drosophila melanogaster larva", Tastekin et al., 2018**.
 
-The microscope was a Ultima Multiphoton imaging system from Prairie.
+The microscope used was a Ultima Multiphoton imaging system from Prairie.
 
 ## Data
-The raw data (including the analysis done on it) is the the two folders named
+
+The raw data (including the analysis done on it) is in the two folders named
 'raw_data - attPxPair1, 0.91V' and 'raw_data - PDMxPair1, 0.91V'.
 
 Each folder in those folders contains a single experiment (e.g. 
@@ -22,11 +23,12 @@ files. It also includes the *Reference* folder.
 All the other files are produced by the analysis script (see below) 
 
 ## Analysis Script
-The script that was used to analyze the functional 
-imaging data.
+
+The script that was used to analyze the functional imaging data.
 
 
 ### Prerequisites
+
 To get this script to work on your computer you need the following:
 
 1) Python3.x
@@ -43,8 +45,14 @@ The easiest way to install all these packages is to:
 
 1. Install Miniconda for your sytem: https://conda.io/miniconda.html
 2. In the Anaconda prompt (windows) or terminal (Linux based) create a 
-virtual environment: https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
+an environment: https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
+
+    ```for example type: <conda create --name PDM_FuncImag>```
+
 3. activate the environment
+
+    ```on Windows type: <activate PDM_FuncImag>, on Linux: <source activate PDM_FuncImag>```
+
 4. Install all the packages:
 
     1. ```conda install -c anaconda numpy```
@@ -53,9 +61,7 @@ virtual environment: https://conda.io/docs/user-guide/tasks/manage-environments.
     4. ```conda install -c anaconda scikit-image ```
     5. ```conda install -c anaconda pandas```
     6. ```conda install -c conda-forge tifffile```
-    
-
-    
+        
 ## Running the script
 The script itself is heavily annotated. 
 
