@@ -70,7 +70,7 @@ You **should** change the 'identifier' variable in line 78.
 In the terminal change directory to the folder the Analysis Script is localized,
 e.g. 
 
-```cd C:\user\Desktop\eLife2018_PDM-DN\Functional_Imaging\``
+```cd C:\user\Desktop\eLife2018_PDM-DN\Functional_Imaging\```
 
 Run the script by typing 
 
