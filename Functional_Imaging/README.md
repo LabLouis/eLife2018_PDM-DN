@@ -61,14 +61,16 @@ The script itself is heavily annotated.
 
 You **must** change the 'path' variable in line 76.
 
+Example: ```C:\user\Desktop\eLife2018_PDM-DN\Functional_Imaging\raw_data - attPxPair1, 0.91V\180327 brain#2 Tseries1```
+
 You **should** change the 'genotype' variable in line 77.
  
 You **should** change the 'identifier' variable in line 78.
 
-In the terminal change directory to the folder you want to analyze,
+In the terminal change directory to the folder the Analysis Script is localized,
 e.g. 
 
-```cd C:/user/Desktop/eLife2018_PDM-DN\Functional_Imaging\raw_data - attPxPair1, 0.91V\180327 brain#2 Tseries1```
+```cd C:\user\Desktop\eLife2018_PDM-DN\Functional_Imaging\``
 
 Run the script by typing 
 
