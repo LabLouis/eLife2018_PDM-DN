@@ -1,4 +1,4 @@
-#Functional Imaging Data
+# Functional Imaging Data
 
 presented in Figure 6 E and F in the paper 
 titled: **"Sensorimotor pathway controlling stopping behavior 
